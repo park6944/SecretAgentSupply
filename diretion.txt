@@ -1,0 +1,241 @@
+1.
+
+Open your file manager and create a new folder called SecretAgentSupply. Inside of this folder, create the following items:
+
+A file named index.html.
+A folder named resources.
+Inside of the resources folder, create the following:
+
+A folder named css with a style.css file, and a reset.css file inside. The reset.css file should contain this code.
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+2.
+
+Open index.html in a text editor and add the boilerplate HTML.
+
+Title the page Secret Agent Supply Inc..
+
+Also, link resources/css/style.css and resources/css/reset.css in the <head> section of index.html.
+
+In addition, you’ll need the following images to complete the web page:
+
+1) Logo image: 
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png
+
+
+2) Main banner background image:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg
+
+
+3) Pen image:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png
+
+
+4) Watch image:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png
+
+
+5) Glasses image:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png
+
+
+
+
+3.
+
+Click here:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/desktop.jpg
+
+
+to look at the finished page design. Using the finished design, create the HTML structure, including the logo, main banner, navigation, product grid, location, hours, and footer in index.html.
+
+
+
+
+
+4.
+
+Nice work! At this point, you should have the page's HTML written.
+
+Begin writing the CSS to make the page match the desktop view of the page.
+
+For reference, click here:
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/redline.jpg
+
+
+to see a design spec of the website's design. Design specs outline important design specifications to help you replicate the design in HTML and CSS.
+
+
+
+
+
+5.
+
+Great! Now you should have a good looking desktop site.
+
+Now, resize the page to different widths, from large to small. You may notice the page breaks, or does not appear correctly when viewed on smaller screens.
+
+Write a media query that targets a screen width less than 1024 pixels. 1024 pixels is near the size of a tablet in the portrait orientation.
+
+
+
+
+
+6.
+Inside of the 1024 pixels media query, make changes so that the site appears as in the tablet design here.
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/tablet.jpg
+
+
+You can find the design spec here.
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/redline.jpg
+
+
+The changes include:
+
+a) Changing the font sizes in the main banner.
+
+b) Making the navigation display a "Menu" button instead of all the menu options.
+
+c) Making only two products appear, both taking approximately half the screen's width.
+
+
+
+
+
+7.
+
+Resize your browser to an even smaller width, to simulate a phone's screen.
+
+Write a media query that targets screens with a width less than 470 pixels.
+
+
+
+
+8.
+
+Refer to the mobile design here 
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/mobile.jpg
+
+
+and the corresponding design spec here. 
+
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/redline.jpg
+
+
+Use these resources to write CSS that makes the page consistent with the phone-sized designs.
+
+The changes include:
+
+a) Making the headline appear at the bottom of the banner and take up the width of the screen.
+
+b) Changing the banner's font size to match the design.
+
+c) In the product section, making only one product visible. It should take up 90% of the width of the screen.
+
+d) Making the "Location" and "Hours" elements stack on top of each other.
+
+e) The footer's text should be centered in the screen.
+
+Resize your page and make sure that the appearance of the page changes in response to the screen's width.
+
+
+
+
+Congratulations! You just built a responsive website that looks great no matter what device it's viewed on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
